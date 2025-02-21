@@ -1,0 +1,110 @@
+<!DOCTYPR html>
+    <html>
+
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>John Rico T.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Me</h1>
+
+    </section>
+
+    <!-----JavaScript for Toggle Menu----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!-----Contact Me----->
+
+    <section class="location glow7">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61915.87836165081!2d121.0641185966802!3d14.092378271467242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6ff38372207f%3A0x8894ffb7587cc37a!2sTanauan%20City%2C%20Batangas!5e0!3m2!1sen!2sph!4v1670063816879!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="subject" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h2>Trapiche 4, Tanauan City</h2>
+                        <p>Batangas</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h2>+63 927 026 3638</h2>
+                        <p>Monday - Friday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h2>johnrico.tolentino.12@gmail.com</h2>
+                        <p>Email me here</p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hello, my name is Rico. I'm a new content creator who hopes to give good entertainment to everyone. <br> Join my growing community for more exclusive contents. Thank You!!!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-envelope"></i>
+        </div>
+        <p><br><br>Made by John Rico B. Tolentino</p>
+    </section>
+
+
+
+</body></html>

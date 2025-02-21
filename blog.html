@@ -1,0 +1,114 @@
+<!DOCTYPR html>
+    <html>
+
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>John Rico T.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Personal Blog</h1>
+
+    </section>
+
+    <!-----JavaScript for Toggle Menu----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!-----Blogs Content----->
+
+    <section class="blogss">
+
+        <div class="row">
+            <div class="blogss-col glow4">
+                <img src="Images/G5.jpg">
+            </div>
+            <div class="blogss-col">
+                <h1>Games </h1>
+                <p>
+                    Games Recommendations <br> <br>
+                    Genshin Impact is an action role-playing game developed and published by Hoyoverse. It is a free-to-play action-adventure RPG where you play a vague and mysterious “traveler” from another world who arrives in the land of Teyvat. You can start unlocking new characters equipped with their own elemental type and abilities that utilize that element. Characters are pulled randomly through the game's Wish system. You can try your luck and make a Wish, which summons a random weapon or character from an expansive pool. <br> <br>On January 3, 2020, I began playing this game. It had been over two years. I've already attained the highest Adventure Rank and can be considered an end game player...
+                </p>
+
+                <a href="" class="hero-btn red-btn">EXPLORE MORE</a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="blogss-col glow5">
+                <img src="Images/A5.jpg">
+            </div>
+            <div class="blogss-col">
+                <h1>Anime</h1>
+                <p>
+                    Anime Recommendations <br> <br>
+                    Black Clover is one of the exciting, fun paced, interesting and my favorite anime. The story follows Asta, a young boy born without any magic power. This is unknown to the world he lives in because seemingly everyone has some sort of magic power. With his fellow mages from the Black Bulls, Asta plans to become the next Wizard King. No extra stuff, not much filler, only pure story and the anime knows when to make you remember stuff just when you start to forget the characters or the story
+                </p>
+
+                <a href="" class="hero-btn red-btn">EXPLORE MORE</a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="blogss-col glow6">
+                <img src="Images/M3.png">
+            </div>
+            <div class="blogss-col">
+                <h1>Movies</h1>
+                <p>Movie Recommendations <br> <br>
+                    Over the past decade, Marvel movies have dominated the box office and amassed millions of fans worldwide. For some viewers, the visual effects, editing and background work are equally important as the storyline and casting decisions. Obviously, this comes down to personal preference. The first 11 years of the MCU have spanned three so-called Phases, and the third closing after the epic battle royale of Avengers: Endgame <br> <br>
+                    I am personally a fan of Marvel Cinematic Universe ever since. I am always kept up to date on their new movies and series...
+                </p>
+
+                <a href="" class="hero-btn red-btn">EXPLORE MORE</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hello, my name is Rico. I'm a new content creator who hopes to give good entertainment to everyone. <br> Join my growing community for more exclusive contents. Thank You!!!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-envelope"></i>
+        </div>
+        <p><br><br>Made by John Rico B. Tolentino</p>
+    </section>
+
+
+
+</body></html>

@@ -1,0 +1,157 @@
+<!DOCTYPR html>
+    <html>
+
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>John Rico T.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Hi, I'm Rico</h1>
+            <p> I'm here to share my entertainment. Let's spend some time having fun!<br>Games. Anime. Movies.
+            </p>
+            <a href="" class="hero-btn">Let's see more!</a>
+        </div>
+
+    </section>
+
+    <!-----JavaScript for Toggle Menu----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!----Blogs------>
+
+    <section class="blogs">
+
+        <h1>My Personal Blogs</h1>
+        <h3>I do personal blogs about games, anime, and movies. My contents are mostly about what's new and popular.</h3>
+
+        <div class="row">
+
+            <div class="blogs-col">
+                <h2>Games</h2>
+                <p>Game Reviews. Game Recommendations. Gaming Tutorials. Gaming News. Game Discussions. Tier List. Game Highlights. Gaming tips. Game Walkthroughs.  </p>
+            </div>
+            <div class="blogs-col">
+                <h2>Anime</h2>
+                <p>Anime Reviews. Anime Analysis. Anime Reaction. Anime Recommendations. Anime News. Anime Discussions. Anime Community. Character Tier List. Anime Lore. 
+                </p>
+            </div>
+            <div class="blogs-col">
+                <h2>Movies</h2>
+                <p>Movie Reviews. Movie Marathon. Movie Reaction. Movie Recommendations and Criticisms. Movie News. Movie Discussions. Question and Answer Videos. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-----Gallery----->
+    <section class="gallery">
+        <h1> My Gallery </h1>
+        <h3>My Gallery are full of collection of images, mostly about games, anime, and movies.</h3>
+
+        <div class="row">
+            <div class="gallery-col glow2">
+                <img src="Images/Gi1.jpg">
+                <div class="layer">
+                    <h2>Games</h2>
+                </div>
+            </div>
+            <div class="gallery-col glow2">
+                <img src="Images/A2.jpg">
+                <div class="layer">
+                    <h2>Anime</h2>
+                </div>
+            </div>
+            <div class="gallery-col glow2">
+                <img src="Images/M1.jpg">
+                <div class="layer">
+                    <h2>Movies</h2>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!----News---->
+    <section class="news">
+        <h1>Latest News</h1>
+        <h3>News sections are always current and up to date, and articles are backed up by credible sources.</h3>
+
+        <div class="row">
+            <div class="news-col glow3">
+                <img src="Images/G2.jpg">
+                <h2>Game news</h2>
+                <h3>Genshin Impact version 3.3 update now available <br> Wanderer and Faruzan, TCG, new domain, and more.</h3>
+            </div>
+            <div class="news-col glow3">
+                <img src="Images/A3.jpg">
+                <h2>Anime news</h2>
+                <h3>Chainsaw Man Next Episode: Release date and time, what to expect, and more</h3>
+            </div>
+            <div class="news-col glow3">
+                <img src="Images/M3.jpg">
+                <h2>Movie news</h2>
+                <h3>'Black Panther: Wakanda Forever' Crosses $401 Million at North American Box Office</h3>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!----Join Me---->
+
+    <section class="join glow">
+        <h1>Join my community!</h1>
+        <a href="" class="hero-btn">CONTACT ME</a>
+    </section>
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hello, my name is Rico. I'm a new content creator who hopes to give good entertainment to everyone. <br> Join my growing community for more exclusive contents. Thank You!!!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-envelope"></i>
+        </div>
+        <p><br><br>Made by John Rico B. Tolentino</p>
+    </section>
+
+
+
+</body></html>

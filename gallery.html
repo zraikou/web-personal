@@ -1,0 +1,119 @@
+<!DOCTYPR html>
+    <html>
+
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>John Rico T.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Gallery</h1>
+
+    </section>
+
+    <!-----JavaScript for Toggle Menu----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!-----Gallery Content----->
+    <section>
+
+        <div class="container">
+
+            <div class="box">
+                <div class="dream">
+                    <img src="Images/Gal1.jpg">
+                    <img src="Images/Gal2.jpg">
+                    <img src="Images/Gal3.jpg">
+                    <img src="Images/Gal4.jpg">
+                    <img src="Images/Gal5.jpg">
+                </div>
+                <div class="dream">
+                    <img src="Images/Gal6.jpg">
+                    <img src="Images/Gal7.jpg">
+                    <img src="Images/Gal8.jpg">
+                    <img src="Images/Gal9.jpg">
+                    <img src="Images/Gal10.jpg">
+                </div>
+                <div class="dream">
+                    <img src="Images/Gal15.jpg">
+                    <img src="Images/Gal12.jpg">
+                    <img src="Images/Gal13.jpg">
+                    <img src="Images/Gal11.jpg">
+                    <img src="Images/Gal14.jpg">
+                </div>
+            </div>
+            <div class="box">
+                <div class="dream">
+                    <img src="Images/Gal16.jpg">
+                    <img src="Images/Gal17.jpg">
+                    <img src="Images/Gal18.jpg">
+                    <img src="Images/Gal19.jpg">
+                    <img src="Images/Gal20.jpg">
+                </div>
+                <div class="dream">
+                    <img src="Images/Gal21.jpg">
+                    <img src="Images/Gal22.jpg">
+                    <img src="Images/Gal23.jpg">
+                    <img src="Images/Gal24.jpg">
+                    <img src="Images/Gal25.jpg">
+                </div>
+                <div class="dream">
+                    <img src="Images/Gal26.jpg">
+                    <img src="Images/Gal27.jpg">
+                    <img src="Images/Gal28.jpg">
+                    <img src="Images/Gal29.jpg">
+                    <img src="Images/Gal30.jpg">
+                </div>
+            </div>
+            <a href="" class="hero-btn red-btn">VIEW MORE</a>
+        </div>
+
+    </section>
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hello, my name is Rico. I'm a new content creator who hopes to give good entertainment to everyone. <br> Join my growing community for more exclusive contents. Thank You!!!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-envelope"></i>
+        </div>
+        <p><br><br>Made by John Rico B. Tolentino</p>
+    </section>
+
+
+
+</body></html>
